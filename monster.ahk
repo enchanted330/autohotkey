@@ -19,10 +19,8 @@ vol_Thick = 15   ; thickness of bar
 ; try changing the below hotkeys to use them by specifying
 ; Volume_Up, ^Volume_Up, Volume_Down, and ^Volume_Down:
 
-HotKey, ^Up, vol_MasterUp      ; Win+UpArrow
-HotKey, ^Down, vol_MasterDown 
-HotKey, ^WheelUp, vol_MasterUp      ; Win+UpArrow
-HotKey, ^WheelDown, vol_MasterDown 
+HotKey, #WheelUp, vol_MasterUp      ; Win+UpArrow
+HotKey, #WheelDown, vol_MasterDown 
 
 
 ;___________________________________________ 
@@ -112,7 +110,7 @@ Progress, 2:Off
 return
 ;--------------------------------------------Application
 ^`:: 
-Run D:\link\¡¤ 
+Run D:\link\Â¡Â¤ 
 return 
 
 ^1:: 
